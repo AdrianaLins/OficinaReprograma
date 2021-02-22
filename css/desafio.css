@@ -1,0 +1,64 @@
+/* Tira as margens e as linhas dos links */
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Body é tela toda */
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ECCEF5;
+  margin-top: 6%;
+  font-size: 25px;
+}
+
+input {
+  margin-top: 10px; /* Margen entre a parte de cima da tela até o conteudo */
+  border-radius: 5px; /* Arredondamento da caixa de dialogo */
+  padding: 3px; /* Tamanho da caixa */
+}
+
+label, button, a{
+  margin-top: 20px;
+}
+
+span{
+  margin-top: 30px;
+  color: #8904B1; /* Cor da font */
+  font-size: 28px;
+  font-weight:700; 
+}
+
+button{
+  padding: 7px 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  background-color: #b44dd3;
+  border-color: #b44dd3;
+  color: #ffffff;
+  cursor: pointer; /* Ao passar o mouse em cima ele muda de estilo */
+  
+}
+
+/* Posicionamento da imagem */
+.img{
+  display: block;
+  position: absolute;
+  margin-left: 58%;
+  margin-top: 10%; 
+}
+a{
+  font-size: 20px;
+}
+
+
+
+
+
+
+
